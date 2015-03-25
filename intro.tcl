@@ -24,3 +24,7 @@ set_false_path -from [get_port input_1] \ -to [all_output]
 set_false_path -from [get_pin reg_heir/reg_1/Q] \ -to [get_pin reg_4/D]
 
 set_false_path -from [get_pin reg_heir/reg_*/Q] \ -to [get_pin reg_4/*]
+
+
+#clock
+create_clock -period 2 [get_port clock]
