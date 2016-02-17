@@ -25,4 +25,6 @@ else:
   print 'match not found'
   
   
+result = re.findall(r'king', 'king kong is the king of movies')
+print result
   
