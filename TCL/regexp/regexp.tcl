@@ -3,6 +3,10 @@ if {[regexp -- {it$} $string_a]} {
   Puts "ends with 'it'"
 }
 
+if {[regexp -- {(\d+)} $string_a]} {
+  Puts "contains number"
+}
+
 if {![regexp -- {^HI} $string_a]} {
   Puts "does not begin with 'HI'"
 }
