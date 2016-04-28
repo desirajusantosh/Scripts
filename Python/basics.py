@@ -1,14 +1,34 @@
-#Dict
-new_dict = {}
-new_dict['key1'] = 'value1'
-new_dict.get('key1')
-new_dict.items()
-new_dict.keys()
-new_dict.values()
+#values have datatypes:
+name = king
+name = 22
 
-#File IO
-f = open(filename, 'mode')
-f.close()
+
+
 
 for line in f:
-  print 'line'
+  print line
+
+while (total<max_vol):
+  total += values[i]
+  i += 2
+
+#Functions
+def divide(dividend, divisor):
+  quotient = dividend/divisor
+  remainder = dividend % divisor
+  return quotient, remainder
+
+def calc(x,y):
+  (q, r) = divide(x, y) 
+  print q, r
+
+
+#Classes:
+class person:
+  def __init__(self, name, age):
+	self.name = sam
+	self.age = 88
+
+  def birthday():
+	self.age += 1
+
